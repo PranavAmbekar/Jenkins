@@ -38,3 +38,9 @@ Maven installation
 > yum installl maven -y
 
 --------------------------------------------------------------
+
+#use this command to find JAVA_HOME path:
+
+> java -XshowSettings:properties -version 2>&1 > /dev/null | grep 'java.home'
+
+-----------------------------------------------------------------
